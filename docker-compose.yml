@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+
+  nginx1:
+    image: nginxdemos/hello
+    container_name: nginx1
+    ports:
+      - 81:80 
+
+  nginx2:
+    image: nginxdemos/hello
+    container_name: nginx2
+    ports:
+      - 82:80 
